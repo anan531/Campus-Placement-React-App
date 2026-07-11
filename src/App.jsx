@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import AddReg from './components/AddReg'
 import SearchReg from './components/SearchReg'
+import DelReg from './components/DelReg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <AddReg/>
       <SearchReg/>
+      <DelReg/>
     </>
   )
 }
