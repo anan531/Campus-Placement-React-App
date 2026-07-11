@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Navigation from './Navigation'
 
 const ViewReg = () => {
 
@@ -30,6 +31,7 @@ const ViewReg = () => {
 
   return (
     <div>
+        <Navigation/>
 <h1 align="center">VIEW STUDENTS</h1>
 <div className="container">
     <div className="row g-3">

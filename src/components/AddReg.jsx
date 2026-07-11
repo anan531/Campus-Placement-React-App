@@ -3,7 +3,7 @@ import React from 'react'
 const AddReg = () => {
   return (
     <div>
-
+<Navigation/>
 <h1>Add Registration Page</h1>
 <div className="container">
     <div className="row g-3">

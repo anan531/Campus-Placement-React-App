@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const SearchReg = () => {
   return (
     <div>
+        <Navigation/>
 <h1>Search Registration</h1>
 <div className="container">
     <div className="row g-3">
