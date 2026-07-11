@@ -50,7 +50,7 @@ const ViewReg = () => {
         <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
 
 
-<div class="card">
+<div class="card h-100">
   <div class="card-body">
     <h5 class="card-title">{value.fullName}</h5>
     <p class="card-text">{value.regNo}</p>
@@ -60,7 +60,7 @@ const ViewReg = () => {
     <p class="card-text">{value.ugMark}</p>
     <p class="card-text">{value.pgMark}</p>
 
-    <a href="#" class="btn btn-success">VIEW STUDENT</a>
+    <a href="#" class="btn btn-outline-info">VIEW STUDENT</a>
   </div>
 </div>
 
