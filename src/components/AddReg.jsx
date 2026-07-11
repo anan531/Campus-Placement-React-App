@@ -1,9 +1,10 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const AddReg = () => {
   return (
     <div>
-
+<Navigation />
 <h1>Add Registration Page</h1>
 <div className="container">
     <div className="row g-3">

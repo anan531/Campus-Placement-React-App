@@ -1,10 +1,11 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 const DelReg = () => {
   return (
     <div>
 
-
+<Navigation/>
 <h1>Delete Registration</h1>
 <div className="container">
     <div className="row g-3">
